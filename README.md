@@ -21,14 +21,14 @@ Setup
 * If venv isn't installed. Install it with apt-get
 > $ sudo apt-get install python3-venv
 
-....* if venv isn't working. Try using virtualenv
-........* Installing virtualenv
+* if venv isn't working. Try using virtualenv
+* Installing virtualenv
 > $ sudo pip3 install virtualenv
 
-** Creating a virtual environment using python3
+* Creating a virtual environment using python3
 > $ virtualenv -p python3 venv
 
-** Activating the virtual environment
+* Activating the virtual environment
 > $ source venv/bin/activate
 
 Dependencies
@@ -54,6 +54,22 @@ Dependencies
 
 7. Install flask-mail
 > $ pip3 install flask-mail
+
+---------------------------------------------------------------------
+# Updates
+
+
+## Flask Large Application Structure
+------------------------------------
+
+Restructuring the APP for large scale application.
+
+### Update: 201801Ap+65
+-----------------------
+
+1. Create a configuration file config.py
+2. Add optional entries in the env.sh script
+
 
 ### Update: 201830Ma+65
 -----------------------

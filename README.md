@@ -21,8 +21,8 @@ Setup
 * If venv isn't installed. Install it with apt-get
 > $ sudo apt-get install python3-venv
 
-* if venv isn't working. Try using virtualenv
-** Installing virtualenv
+....* if venv isn't working. Try using virtualenv
+........* Installing virtualenv
 > $ sudo pip3 install virtualenv
 
 ** Creating a virtual environment using python3
